@@ -6,7 +6,7 @@ const MessagewForm = (props) => {
     const [value, setValue] = useState('');
     const { chatId, creds} = props;
     const handleSubmit = (e) => {
-        // e.preventDefault();
+        e.preventDefault();
 
          const text = value.trim();
 
